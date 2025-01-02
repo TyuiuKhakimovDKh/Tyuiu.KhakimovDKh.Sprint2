@@ -28,7 +28,7 @@ namespace Tyuiu.KhakimovDKh.Sprint2.Task5.V6.Lib
                     res = $"Валет {suit[value1 - 1]}";
                     break;
                 case 12:
-                    res = $"Дама {suit[value1 - 1]}";
+                    res = $"дама {suit[value1 - 1]}";
                     break;
                 case 13:
                     res = $"Король {suit[value1 - 1]}";
