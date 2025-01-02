@@ -5,7 +5,7 @@ namespace Tyuiu.KhakimovDKh.Sprint2.Task5.V6.Lib
     {
         public string FindCardNameAndValue(int value1, int value2)
         {
-            string[] suit = new string[4] { "пики", "трефы", "бубны", "червы" };
+            string[] suit = new string[4] { "пик", "трефы", "бубны", "червы" };
             string res = "";
             switch (value2)
             {
