@@ -23,7 +23,7 @@ namespace Tyuiu.KhakimovDKh.Sprint2.Task4.V18
             Console.WriteLine("* ИСХОДНЫЕ ДАННЫЕ:                                                        *");
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("Введите Х: ");
-            double x = Convert.ToDouble(Conso.ReadLine());
+            double x = Convert.ToDouble(Console.ReadLine());
             Console.WriteLine("Введите Y: ");
             double y = Convert.ToDouble(Console.ReadLine());
             double res = ds.Calculate(x, y);
