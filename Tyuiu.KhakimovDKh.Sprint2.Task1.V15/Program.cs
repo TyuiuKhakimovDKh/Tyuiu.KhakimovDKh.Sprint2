@@ -11,7 +11,7 @@ namespace Tyuiu.KhakimovDKh.Sprint2.Task1.V15
             Console.WriteLine("* Тема: Логические операции                                               *");
             Console.WriteLine("* Задание #1                                                              *");
             Console.WriteLine("* Вариант #15                                                            *");
-            Console.WriteLine("* Выполнл: ХакимовД Достонбек Хисравович В.А. | ИИПб-24-2               *");
+            Console.WriteLine("* Выполнл: ХакимовД Достонбек Хисравович В.А. | ИИПб-24-2                *");
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* УСЛОВИЕ:                                                                *");
             Console.WriteLine("* Написать программу из операций сравнений (==, !=, <, >, <=, >=,         *");
