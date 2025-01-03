@@ -10,18 +10,21 @@ namespace Tyuiu.KhakimovDKh.Sprint2.Task6.V10.Lib
             {
                 switch (m)
                 {
-                    case 1: return "31.12." + (g - 1);
-                    case 2: return "31." + (m - 1) + "." + g;
-                    case 3: return "28." + (m - 1) + "." + g;
-                    case 4: return "31." + (m - 1) + "." + g;
-                    case 5: return "30." + (m - 1) + "." + g;
-                    case 6: return "31." + (m - 1) + "." + g;
-                    case 7: return "30." + (m - 1) + "." + g;
-                    case 8: return "31." + (m - 1) + "." + g;
-                    case 9: return "31." + (m - 1) + "." + g;
-                    case 10: return "30." + (m - 1) + "." + g;
-                    case 11: return "31." + (m - 1) + "." + g;
-                    case 12: return "30." + (m - 1) + "." + g;
+                    case 1: return $"31.12.{g - 1}";
+                    case 2: return $"31.{(m - 1):D2}.{g}";
+                    case 3: return $"28.{(m - 1):D2}.{g}";
+                    case 4: return $"31.{(m - 1):D2}.{g}";
+                    case 5: return $"30.{(m - 1):D2}.{g}";
+                    case 6: return $"31.{(m - 1):D2}.{g}";
+                    case 7: return $"30.{(m - 1):D2}.{g}";
+                    case 8: return $"31.{(m - 1):D2}.{g}";
+                    case 9: return $"31.{(m - 1):D2}.{g}";
+                    case 10: return $"30.{(m - 1):D2}.{g}";
+                    case 11: return $"31.{(m - 1):D2}.{g}";
+                    case 12:
+                        return $"30.{(m - 1):D2}.{g}";
+
+                        return $"{(n - 1):D2}.{m:D2}.{g}";
                 }
             }
             switch (n)
@@ -31,7 +34,7 @@ namespace Tyuiu.KhakimovDKh.Sprint2.Task6.V10.Lib
                 case 4: return (n - 1) + "." + m + "." + g;
                 case 5: return (n - 1) + "." + m + "." + g;
                 case 6: return (n - 1) + "." + m + "." + g;
-                case 07: return (n - 1) + "." + m + "." + g;
+                case 7: return (n - 1) + "." + m + "." + g;
                 case 8: return (n - 1) + "." + m + "." + g;
                 case 9: return (n - 1) + "." + m + "." + g;
                 case 10: return (n - 1) + "." + m + "." + g;
