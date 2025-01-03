@@ -31,7 +31,7 @@ namespace Tyuiu.KhakimovDKh.Sprint2.Task6.V10.Lib
                 case 4: return (n - 1) + "." + m + "." + g;
                 case 5: return (n - 1) + "." + m + "." + g;
                 case 6: return (n - 1) + "." + m + "." + g;
-                case 7: return (n - 1) + "." + m + "." + g;
+                case 07: return (n - 1) + "." + m + "." + g;
                 case 8: return (n - 1) + "." + m + "." + g;
                 case 9: return (n - 1) + "." + m + "." + g;
                 case 10: return (n - 1) + "." + m + "." + g;
